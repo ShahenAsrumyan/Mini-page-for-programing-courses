@@ -33,14 +33,14 @@ function btn1(){
     
     var patasxan =document.createElement("P");
     patasxan.innerHTML=("Արժեքը ="+" "+yndhanur+" դրամ"+"<br>"+"Տևողությունը =" +" "+ amis  +" ամիս");
-    patasxan.setAttribute("style","font-size:20px; position:absolute;bottom:60px;left:11%;")
+    patasxan.setAttribute("style","font-size:20px; position:absolute;top:645px;left:11%;")
     document.body.append(patasxan);
 }
 function btn2(){
  
     var patasxan =document.createElement("P");
     patasxan.innerHTML=("Արժեքը ="+" "+yndhanur2+" դրամ"+"<br>"+"Տևողությունը =" +" "+ amis2 +" ամիս");
-    patasxan.setAttribute("style","font-size:20px; position:absolute;bottom:60px;left:41%;")
+    patasxan.setAttribute("style","font-size:20px; position:absolute;top:645px;left:41%;")
     document.body.append(patasxan);
 }
 
@@ -48,7 +48,7 @@ function btn3(){
   
     var patasxan =document.createElement("P");
     patasxan.innerHTML=("Արժեքը ="+" "+yndhanur3+" դրամ"+"<br>"+"Տևողությունը =" +" "+ amis3 +" ամիս");
-    patasxan.setAttribute("style","font-size:20px; position:absolute;bottom:60px;left:71%;")
+    patasxan.setAttribute("style","font-size:20px; position:absolute;top:645px;left:71%;")
     document.body.append(patasxan);
     
 }
